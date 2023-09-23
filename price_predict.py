@@ -17,7 +17,7 @@ import pandas as pd
 import matplotlib.pyplot as pt
 from sklearn.linear_model import LinearRegression as lr 
 
-data = pd.read_csv('housingdata.csv')
+data = pd.read_csv('your_data_set.csv')
 pt.scatter(data['version'] , data ['price'])
 pt.show()
 
